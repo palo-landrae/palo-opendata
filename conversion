@@ -1,0 +1,7 @@
+from shapely import wkt
+url = "https://raw.githubusercontent.com/palo-landrae/palo-opendata/master/dati/regioni.csv"
+crs = "epsg:32632"
+temp = pd.read_csv(url)
+temp['geometry'] = temp['geometry'].apply(wkt.loads)
+gdf = gpd.GeoDataFrame(temp, crs=crs)
+gdf.plot()
