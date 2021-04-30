@@ -1,0 +1,14 @@
+#librerie necessarie
+import geopandas as gpd
+import pandas as pd
+from shapely import wkt
+
+#inserire url e crs del file csv desiderato
+url = "https://raw.githubusercontent.com/palo-landrae/palo-opendata/master/dati/regioni_01012021.csv"
+crs = "epsg:32632"
+
+temp = pd.read_csv(url, sep=';')
+temp['geometry'] = temp['geometry'].apply(wkt.loads)
+
+regioni = gpd.GeoDataFrame(temp, crs=crs)
+regioni.head()
