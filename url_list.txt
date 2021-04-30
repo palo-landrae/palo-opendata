@@ -1,0 +1,10 @@
+comuni      = "https://raw.githubusercontent.com/palo-landrae/palo-opendata/master/dati/comuni_01012021.csv"
+province    = "https://raw.githubusercontent.com/palo-landrae/palo-opendata/master/dati/province_01012021.csv"
+regioni     = "https://raw.githubusercontent.com/palo-landrae/palo-opendata/master/dati/regioni_01012021.csv"
+popolazione = "https://raw.githubusercontent.com/palo-landrae/palo-opendata/master/dati/popolazione_01012021.csv"
+puntiSomministrazioniVaccini = "https://raw.githubusercontent.com/palo-landrae/palo-opendata/master/dati/puntiSomministrazioneVaccini.csv"
+
+comuni: epsg:32632
+province: epsg:32632
+regioni: epsg:32632
+puntiSomministrazioniVaccini: epsg:4326
