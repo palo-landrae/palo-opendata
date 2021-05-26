@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "anagrafica": "PIAZZA CARBONARI" }, "geometry": { "type": "Point", "coordinates": [ 9.200633074638358, 45.494829267034149 ] } },
+{ "type": "Feature", "properties": { "anagrafica": "VIA MELCHIORRE GIOIA" }, "geometry": { "type": "Point", "coordinates": [ 9.205029545554765, 45.493167060495317 ] } },
+{ "type": "Feature", "properties": { "anagrafica": "VIA STRESA" }, "geometry": { "type": "Point", "coordinates": [ 9.203103688716338, 45.493446439298452 ] } },
+{ "type": "Feature", "properties": { "anagrafica": "VIALE ZARA" }, "geometry": { "type": "Point", "coordinates": [ 9.196060962962044, 45.497703080510853 ] } }
+]
+}
